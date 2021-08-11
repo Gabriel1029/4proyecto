@@ -36,7 +36,8 @@ img {
     margin-bottom: 5%;
     font-weight: bolder;
     border: 8px solid #333;
-    padding: 1% 2% 1%; }
+    padding: 1% 2% 1%;
+    background-color: rgba(250, 234, 214, 0.5); }
   .header_box a {
     font-size: 1.3rem; }
     .header_box a button {
@@ -48,9 +49,10 @@ img {
 /*contenido de inicio*/
 .contenido {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  column-gap: 5%; }
   .contenido .contenido_img {
-    width: 50%;
+    width: 45%;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -58,8 +60,8 @@ img {
     row-gap: 1.5%;
     padding: 5%; }
     .contenido .contenido_img img {
-      width: 30%;
-      height: 45%;
+      width: 40%;
+      height: 55%;
       box-shadow: 0 0 8px #aaa; }
     .contenido .contenido_img img:first-child {
       align-self: end; }
