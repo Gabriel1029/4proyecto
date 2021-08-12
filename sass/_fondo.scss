@@ -1,0 +1,30 @@
+/*fondo de inicio*/
+.header_box{
+    position: absolute;
+    top: 40%;
+    left:5%; 
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+     color: #fff;
+     font-size:5rem ;
+     margin-bottom: 5%;
+     font-weight: bolder;
+     border:8px solid #333;
+     padding: 1% 2% 1%;
+     background-color: hsla(34, 78%, 91%,.5);
+    }
+        a{
+            font-size: 1.3rem;
+            button{
+                border: none;
+                background-color: #333;
+                color: #fff;
+               padding: 10%;
+            }
+        }
+    
+}

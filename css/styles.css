@@ -1,3 +1,4 @@
+/*reset*/
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +47,23 @@ img {
       color: #fff;
       padding: 10%; }
 
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faebd7;
+  padding: 2%; }
+  footer .footer_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem; }
+    footer .footer_item a {
+      text-decoration: none;
+      color: #333; }
+      footer .footer_item a:hover {
+        color: #777;
+        border-bottom: 1px solid #333; }
+
 /*contenido de inicio*/
 .contenido {
   display: flex;
@@ -70,4 +88,6 @@ img {
     text-align: justify;
     display: flex;
     align-items: center;
-    padding: 5%; }
+    padding: 4%;
+    margin-top: 3%;
+    border-left: 1px solid #999; }
