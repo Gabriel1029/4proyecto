@@ -1,0 +1,39 @@
+/*contenido nosotros*/
+.nos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 4%;
+    margin: 2% 1%;
+   .nos_item{
+    width: 80%;
+    height: 50%;
+    display: flex;
+       .nos_img{
+           width: 60%;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           row-gap: 7%;
+           img{
+               width: 40%;
+               &:nth-child(1){
+                  width: 50%;
+               }
+           }
+       }
+       &:nth-child(1){
+        flex-direction: row-reverse;
+    }
+       p{
+           width: 60%;
+           text-align: justify;
+           display: flex;
+           align-items: center;
+           padding: 5%;
+           border-right: 1px solid #999;
+       }
+   }
+}
